@@ -1,0 +1,30 @@
+{
+  "schema_version": "1",
+  "open_source": true,
+  "model_name": "poker44-behavior-detector",
+  "model_version": "1",
+  "framework": "mlp-runtime",
+  "license": "MIT",
+  "repo_url": "https://github.com/AmadeusCreator/Poker-miracle1",
+  "repo_commit": "",
+  "artifact_sha256": "379ddffaab19e0d1da4bb28847d8340a1b3412637609de118e6d1403363f6d82",
+  "artifact_basename": "current.joblib",
+  "implementation_sha256": "295ac091a9371e4ba10c0ffd03f9a05281832d0f84b3ccf94d1bcea3a1aafc51",
+  "implementation_files": [
+    "neurons/miner.py",
+    "poker44_ml/inference.py",
+    "poker44_ml/features.py",
+    "poker44_ml/sequence_model.py",
+    "poker44_ml/stacked.py",
+    "poker44_ml/calibration.py",
+    "poker44_ml/batch_calibration.py",
+    "poker44/validator/payload_view.py"
+  ],
+  "inference_mode": "local-joblib",
+  "training_data_statement": "Trained on the Poker44 public training benchmark (api.poker44.net). No validator-private evaluation data used.",
+  "training_data_sources": [
+    "released_training_benchmark"
+  ],
+  "private_data_attestation": "No validator-private data used. Supervised artifacts use released benchmark labels only.",
+  "data_attestation": "No validator-private data used. Supervised artifacts use released benchmark labels only."
+}
