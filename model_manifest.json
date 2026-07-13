@@ -7,9 +7,9 @@
   "license": "MIT",
   "repo_url": "https://github.com/AmadeusCreator/Poker-miracle1",
   "repo_commit": "",
-  "artifact_sha256": "dc44aa0de30c9bbd10d2b9778eefa980323b25e8f5c469b697f411f64c30173d",
+  "artifact_sha256": "1e04940ee8fb2f1d164c43bda0f5d1f94a6cf0120128c097932b8abafd96d6bf",
   "artifact_basename": "current.joblib",
-  "implementation_sha256": "846f322a981570f6990b97d9bc1623b1be9d30f22dfa5a7aff3999d1da6ba9a4",
+  "implementation_sha256": "aa77e95a16f1762ed333e24a084ad77931f7df2656b5987a24add00369384a18",
   "implementation_files": [
     "neurons/miner.py",
     "poker44_ml/inference.py",
